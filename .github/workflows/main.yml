@@ -28,5 +28,5 @@ jobs:
 
       - name: Deploy to Vercel
         run: |
-          cd project
+          cd Project
           vercel --token ${{ secrets.VERCEL_TOKEN }}
